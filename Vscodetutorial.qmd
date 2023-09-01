@@ -1,0 +1,64 @@
+# Guide to link local VSCode with Azure ML runtime
+
+**Note** :  This document assumes that you have already configured Azure as shown in 
+[Azure Machine Learning Setup](https://gu-dsan.github.io/6000-fall-2023/reference/azureml-setup.html).
+
+Azure Machine Learning runtime on the web can be very buggy and sometimes can cause problems with code and runtime.
+
+This guide helps you configure how to link **local VSCode IDE** running on your machine with **Azure ML runtime**.
+
+
+
+## Make sure you have configured Azure Machine Learning Runtime
+
+* Login to [Azure](portal.azure.com) account using Georgetown credentials.
+* Navigate to Azure Machine Learning.
+
+  ![ ](Screenshots/Azure%20Landing.png)
+
+* Make sure you atleast have one Azure ML instance as shown below.
+
+
+  ![ ](Screenshots/Azure%20ML.png)
+
+
+## VS Code Extension Setup
+
+* Open VScode on your computer.
+* click on extensions on the left panel.
+* Search for Azure Machine Learning
+ ![Azureext](Screenshots/Azureext.png)
+
+* Install the Azure Machine Learning extension.
+* On the left panel, you will find Azure extension. Click on the extension.(**Control + Option + A**)
+  
+  ![ ](Screenshots/AzureSignin.png)
+
+* **Click on Sign in to Azure**.
+
+* You will be redirected to microsoft, then Georgetown.
+  ![Azuresignin](Screenshots/AZSignin.png)
+
+
+* After signing in, you will VS code promting that you have successfully signed in.
+ ![VSCode](Screenshots/VSCsign.png)
+
+
+## After signing in
+
+* You should see something like `DSAN6000-Fall-2023-aaa` when you open azure extension on your local vscode.
+* Open the runtime you have woked with as shown below.
+* Click on Compute. Select Compute Instances. You will find a compute instance. Mine is named `dsan6000-do343-ci01`
+    
+    ![Computeinstace](Screenshots/computeInstance.png)
+
+* Right click the instance, and select connect
+* It might prompt you that the computer may be started for you. Click on yes. Then you will get a message saying `Starting Compute Instance`
+  
+  ![ ](Screenshots/StartingComputeInstance.png)
+
+* If you have followed the tutorial and done everything above, you should see something like this.
+
+  ![ ](Screenshots/Vscodesucc.png)
+
+If you do!, Congratulations. You have successfully completed this tutorial and setup Vscode integration with Azure Machine Learning!.
