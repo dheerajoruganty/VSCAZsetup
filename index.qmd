@@ -1,13 +1,14 @@
 ---
 title: "Local VScode Setup with Azure Machine Learning Environment"
-listing:
+listing: 
   contents: posts
   sort: "date desc"
   type: default
-  categories: true
+  categories: false
   sort-ui: false
   filter-ui: false
-page-layout: full
+
+page-layout: article
 title-block-banner: true
 ---
 
