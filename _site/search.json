@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Local VScode Setup with Azure Machine Learning Environment",
+    "section": "",
+    "text": "Note : This document assumes that you have already configured Azure as shown in Azure Machine Learning Setup.\nAzure Machine Learning runtime on the web can be very buggy and sometimes can cause problems with code and runtime.\nThis guide helps you configure how to link local VSCode IDE running on your machine with Azure ML runtime.\n\n\n\nLogin to Azure account using Georgetown credentials.\nNavigate to Azure Machine Learning.\n\nMake sure you atleast have one Azure ML instance as shown below.\n\n\n\n\n\n\nOpen VScode on your computer.\nclick on extensions on the left panel.\nSearch for Azure Machine Learning \nInstall the Azure Machine Learning extension.\nOn the left panel, you will find Azure extension. Click on the extension.(Control + Option + A)\n\nClick on Sign in to Azure.\nYou will be redirected to microsoft, then Georgetown. \nAfter signing in, you will VS code promting that you have successfully signed in. \n\n\n\n\n\nYou should see something like DSAN6000-Fall-2023-aaa when you open azure extension on your local vscode.\nOpen the runtime you have woked with as shown below.\nClick on Compute. Select Compute Instances. You will find a compute instance. Mine is named dsan6000-do343-ci01\n\n\n\nComputeinstace\n\n\nRight click the instance, and select connect\nIt might prompt you that the computer may be started for you. Click on yes. Then you will get a message saying Starting Compute Instance\n\nIf you have followed the tutorial and done everything above, you should see something like this.\n\n\nIf you do!, Congratulations. You have successfully completed this tutorial and setup Vscode integration with Azure Machine Learning!."
+  },
+  {
+    "objectID": "index.html#make-sure-you-have-configured-azure-machine-learning-runtime",
+    "href": "index.html#make-sure-you-have-configured-azure-machine-learning-runtime",
+    "title": "Local VScode Setup with Azure Machine Learning Environment",
+    "section": "",
+    "text": "Login to Azure account using Georgetown credentials.\nNavigate to Azure Machine Learning.\n\nMake sure you atleast have one Azure ML instance as shown below."
+  },
+  {
+    "objectID": "index.html#vs-code-extension-setup",
+    "href": "index.html#vs-code-extension-setup",
+    "title": "Local VScode Setup with Azure Machine Learning Environment",
+    "section": "",
+    "text": "Open VScode on your computer.\nclick on extensions on the left panel.\nSearch for Azure Machine Learning \nInstall the Azure Machine Learning extension.\nOn the left panel, you will find Azure extension. Click on the extension.(Control + Option + A)\n\nClick on Sign in to Azure.\nYou will be redirected to microsoft, then Georgetown. \nAfter signing in, you will VS code promting that you have successfully signed in."
+  },
+  {
+    "objectID": "index.html#after-signing-in",
+    "href": "index.html#after-signing-in",
+    "title": "Local VScode Setup with Azure Machine Learning Environment",
+    "section": "",
+    "text": "You should see something like DSAN6000-Fall-2023-aaa when you open azure extension on your local vscode.\nOpen the runtime you have woked with as shown below.\nClick on Compute. Select Compute Instances. You will find a compute instance. Mine is named dsan6000-do343-ci01\n\n\n\nComputeinstace\n\n\nRight click the instance, and select connect\nIt might prompt you that the computer may be started for you. Click on yes. Then you will get a message saying Starting Compute Instance\n\nIf you have followed the tutorial and done everything above, you should see something like this.\n\n\nIf you do!, Congratulations. You have successfully completed this tutorial and setup Vscode integration with Azure Machine Learning!."
+  }
+]
